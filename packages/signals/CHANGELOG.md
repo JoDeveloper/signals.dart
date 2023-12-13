@@ -1,3 +1,22 @@
+## 1.5.10
+
+- Updating `signal_devtools` to 0.0.6
+
+## 1.5.9
+
+- Updating `signal_devtools` to 0.0.5 which now works with hot reload (adding effect remove)
+- Signal `watch` and `listen` can now call the cleanup method on hot reload if any `Watch` widgets are used
+
+## 1.5.8
+
+- Updating `signal_devtools` to 0.0.4 with graph view updated colors and debug label
+
+## 1.5.7
+
+- Fixing Computed bug in debug mode
+- Updating `signal_devtools` to 0.0.3 with graph view showing effects
+- Adding `toAsyncSignal` for `Future` and `Stream` to convert to optional value `AsyncSignal`
+
 ## 1.5.6
 
 - Adding `debugLabel` to `AsyncSignal`
