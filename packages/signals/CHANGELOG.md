@@ -1,3 +1,95 @@
+## 2.1.10
+
+- Updating `signals_flutter` package to **1.0.8**
+- Updating `signals_core` package to **1.0.6**
+
+## 2.1.9
+
+- Updating `signals_core` package to **1.0.5**
+
+## 2.1.8
+
+- Updating `signals_core` package to **1.0.4**
+
+## 2.1.7
+
+- Updating `signals_flutter` package to **1.0.7**
+
+## 2.1.6
+
+- Updating `signals_flutter` package to **1.0.6**
+
+## 2.1.5
+
+- Updating `signals_flutter` package to **1.0.5**
+- Updating `signals_core` package to **1.0.3**
+
+## 2.1.4
+
+- Updating `signals_flutter` package to **1.0.4**
+- Updating `signals_core` package to **1.0.2**
+
+## 2.1.3
+
+- Updating `signals_flutter` package to **1.0.3**
+
+## 2.1.2
+
+- Updating `signals_flutter` package to **1.0.2**
+
+## 2.1.1
+
+- Updating `signals_flutter` package to **1.0.1**
+
+## 2.1.0
+
+- Moving core api from `signals` package to `signals_core` package
+- Moving Flutter extensions from `signals` package to `signals_flutter` package
+- Reexporting `signals` package to `signals_core` and `signals_flutter` packages
+- Depending on `signals_core` package **1.0.1**
+- Depending on `signals_flutter` package **1.0.0**
+
+## 2.0.4
+
+- Fixing `AsyncState` on void signals
+- Fixing `FutureSignal` with void Future
+
+## 2.0.3
+
+- Rename `AsyncSignalState` to `AsyncState`
+- Rename `AsyncSignalStateLoading` to `AsyncLoading`
+- Rename `AsyncSignalStateError` to `AsyncError`
+- Rename `AsyncSignalStateLoaded` to `AsyncLoaded`
+- Deprecate `AsyncSignalState` (and subclasses) in favor of `AsyncState`
+
+## 2.0.2
+
+- Exporting `AsyncSignalState` for `AsyncSignal` state
+- Fixing `FutureSignal` reloading state not triggering
+
+## 2.0.1
+
+- Fixing issue with `StreamSignal` on `resetStream`
+
+## 2.0.0
+
+- Refactor `AsyncSignal`
+- Adding back `FutureSignal` and `StreamSignal` as `AsyncSignal` subclasses
+- Adding `AsyncSignalState`sealed class for `AsyncSignal` state
+- Adding `reload` to `AsyncSignal`
+- Adding `refresh` to `AsyncSignal`
+
+## 1.5.11
+
+- Adding `disableSignalsDevTools` to disable the dev tools extension in debug/profile mode
+- Adding `getSignalListenSubscriberCount` for testing
+- Adding `getSignalWatchSubscriberCount` for testing
+- Fixing watch/listen extension to dedupe signals by context
+- Performance improvements based on benchmark examples by context_watch
+- Adding `debugLabel` to effect
+- Adding `unwatch`, `unlisten` signals extension to stop watching a signal for watch/listen
+- Adding `unwatchSignal`, `unlistenSignal` and `unwatchElement`
+
 ## 1.5.10
 
 - Updating `signal_devtools` to 0.0.6
